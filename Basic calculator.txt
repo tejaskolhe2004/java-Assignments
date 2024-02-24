@@ -1,0 +1,45 @@
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner sc = new Scanner(System.in);
+	    int a =sc.nextInt();
+	     int b =sc.nextInt();
+	      System.out.println("enter a option");
+	     System.out.println("option 1:+,2:-,3:*,4:/....");
+	     int option=sc.nextInt();
+	     
+	     switch(option){
+	     case 1:
+	     int result=a+b;
+	      System.out.println(result);
+	      
+	     break;
+	     case 2:
+	     result=a-b;
+	      System.out.println(result);
+	      
+	     break;
+	     case 3:
+	     result=a*b;
+	      System.out.println(result);
+	      
+	     break;
+	    case 4:
+	     result=a/b;
+	      System.out.println(result);
+	      
+	     break;
+	     
+		case 5:
+		    int i=1,fact=1;
+		   for(i=1;i<=a;i++)
+		   {
+		       fact=fact*i;
+		   }
+		     System.out.println("factorial...." +fact);
+		    
+		    }
+		
+	}
+}
